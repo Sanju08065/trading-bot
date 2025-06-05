@@ -1,0 +1,57 @@
+# Core Dependencies
+python-dotenv>=1.0.0
+asyncio>=3.4.3
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+websockets>=12.0
+aiohttp>=3.9.0
+
+# GUI Dependencies
+PyQt5>=5.15.9
+PyQt5-Qt5>=5.15.2
+PyQt5-sip>=12.13.0
+
+# Machine Learning & Analysis
+tensorflow>=2.15.0  # For neural network predictions
+scikit-learn>=1.3.0  # For data preprocessing
+keras>=2.15.0  # For model training and predictions
+
+# Data Processing & Analysis
+ta-lib>=0.4.28  # Technical analysis library
+pandas-ta>=0.3.14b  # Additional technical analysis
+numpy-financial>=1.0.0  # Financial calculations
+
+# Browser Automation & Web
+selenium>=4.16.0
+webdriver-manager>=4.0.1
+undetected-chromedriver>=3.5.4
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+tqdm>=4.66.1
+colorama>=0.4.6
+emoji>=2.8.0
+
+# Logging & Monitoring
+logging>=0.5.1.2
+python-json-logger>=2.0.7
+
+# Development & Testing
+pytest>=7.4.3
+pytest-asyncio>=0.23.2
+pytest-cov>=4.1.0
+black>=23.11.0
+flake8>=6.1.0
+mypy>=1.7.1
+
+# Documentation
+sphinx>=7.2.6
+sphinx-rtd-theme>=1.3.0
+
+# Note: Some packages may require additional system dependencies
+# For Windows users:
+# - Install Visual C++ Build Tools
+# - Install TA-Lib from: https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib
+# - Install TensorFlow with GPU support if needed 
