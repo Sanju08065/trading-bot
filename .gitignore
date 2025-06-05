@@ -36,7 +36,7 @@ env/
 # Project specific
 trading_bot.log
 session.json
-models/*.h5
+# models/*.h5
 data/*.csv
 data/*.json
 settings/config.json
